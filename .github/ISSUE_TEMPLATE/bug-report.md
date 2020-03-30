@@ -14,7 +14,8 @@ If this is your first time, please read our contributor guidelines: https://gith
 ### Hardware Environment(`Ascend`/`GPU`/`CPU`): 
 > Uncomment only one ` /device <>` line, hit enter to put that in a new line, and remove leading whitespaces from that line:
 >
-> ` /device ascend` 
+
+`/device ascend` 
 > ` /device gpu` 
 > ` /device cpu` 
 
