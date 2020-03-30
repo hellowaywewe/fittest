@@ -14,9 +14,9 @@ If this is your first time, please read our contributor guidelines: https://gith
 ### Hardware Environment(`Ascend`/`GPU`/`CPU`): 
 > Uncomment only one ` /device <>` line, hit enter to put that in a new line, and remove leading whitespaces from that line:
 >
-> ` /device ascend`</br>
-> ` /device gpu`</br>
-> ` /device cpu`</br>
+> `/device ascend`</br>
+> `/device gpu`</br>
+> `/device cpu`</br>
 
 ### Software Environment:
 - **MindSpore version (source or binary)**:
