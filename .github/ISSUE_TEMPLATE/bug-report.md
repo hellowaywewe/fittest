@@ -1,23 +1,43 @@
 ---
 name: Bug Report
-about: Report a bug encountered while operating Mindspore
+about: Use this template for reporting a bug
 labels: kind/bug
 
 ---
 
-<!-- Please use this template while reporting a bug and provide as much info as possible. Thanks!-->
-**What happened**:
+<!--  Thanks for sending an issue!  Here are some tips for you:
 
-**What you expected to happen**:
+If this is your first time, please read our contributor guidelines: https://github.com/mindspore-ai/mindspore/blob/master/CONTRIBUTING.md
+-->
 
-**How to reproduce it (as minimally and precisely as possible)**:
+## Environment
+### Hardware Environment(`Ascend`/`GPU`/`CPU`): 
+> Uncomment only one ` /device <>` line, hit enter to put that in a new line, and remove leading whitespaces from that line:
+>
+> /device ascend
+> /device gpu
+> /device cpu
 
-**Anything else we need to know?**:
+### Software Environment:
+- **MindSpore version (source or binary)**:
+- **Python version (e.g., Python 3.7.5)**:
+- **OS platform and distribution (e.g., Linux Ubuntu 16.04)**:
+- **GCC/Compiler version (if compiled from source)**: 
 
-**Environment**:
-- Mindspore version:
+## Describe the current behavior
 
-- Hardware Environment: 
 
-- Software Environment(e.g. OS, Kernel, Python Version, others):
+## Describe the expected behavior
+
+
+## Steps to reproduce the issue
+1. 
+2. 
+3.
+
+## Related log / screenshot
+
+
+## Special notes for this issue
+
 
