@@ -4,6 +4,10 @@ public class PersonC {
     private String name;
     private int age;
 
+    public PersonC(String name){
+        this.name = name;
+    }
+
     public PersonC(String name, int age){
         this.name = name;
         this.age = age;

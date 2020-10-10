@@ -10,5 +10,6 @@ public class SayHello {
         System.out.println("Hello, I am " + personB.getName());
         PersonC personC = new PersonC("C", 22);
         System.out.println("Hello, I am " + personC.getName());
+        System.out.println("I am " + personC.getAge()+ "years old");
     }
 }
