@@ -1,12 +1,14 @@
 import a.PersonA;
 import a.PersonB;
+import a.PersonC;
 
 public class SayHello {
     public static void main(String[] args){
-        PersonA personA = new PersonA("A", 18);
+        PersonA personA = new PersonA("A");
         System.out.println("Hello, I am " + personA.getName());
-        System.out.println(100 + 200);
-        PersonB personB = new PersonB("B", 20);
+        PersonB personB = new PersonB("B");
         System.out.println("Hello, I am " + personB.getName());
+        PersonC personC = new PersonC("C", 22);
+        System.out.println("Hello, I am " + personC.getName());
     }
 }

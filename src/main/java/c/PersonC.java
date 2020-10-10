@@ -1,14 +1,10 @@
 package a;
 
-public class PersonB {
+public class PersonC {
     private String name;
     private int age;
 
-    public PersonB(String name){
-        this.name = name;
-    }
-
-    public PersonB(String name, int age){
+    public PersonC(String name, int age){
         this.name = name;
         this.age = age;
     }

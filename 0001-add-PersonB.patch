@@ -1,0 +1,64 @@
+From ec64f7926914f3e8c37732e036ff88fcf6727333 Mon Sep 17 00:00:00 2001
+From: helloway <simple_hlw@163.com>
+Date: Sat, 10 Oct 2020 15:46:32 +0800
+Subject: [PATCH] add PersonB
+
+---
+ src/main/java/SayHello.java  |  3 +++
+ src/main/java/b/PersonB.java | 27 +++++++++++++++++++++++++++
+ 2 files changed, 30 insertions(+)
+ create mode 100644 src/main/java/b/PersonB.java
+
+diff --git a/src/main/java/SayHello.java b/src/main/java/SayHello.java
+index 85374b7..0e06d5f 100644
+--- a/src/main/java/SayHello.java
++++ b/src/main/java/SayHello.java
+@@ -1,9 +1,12 @@
+ import a.PersonA;
++import a.PersonB;
+ 
+ public class SayHello {
+     public static void main(String[] args){
+         PersonA personA = new PersonA("A", 18);
+         System.out.println("Hello, I am " + personA.getName());
+         System.out.println(100 + 200);
++        PersonB personB = new PersonB("B", 20);
++        System.out.println("Hello, I am " + personB.getName());
+     }
+ }
+diff --git a/src/main/java/b/PersonB.java b/src/main/java/b/PersonB.java
+new file mode 100644
+index 0000000..c6f913b
+--- /dev/null
++++ b/src/main/java/b/PersonB.java
+@@ -0,0 +1,27 @@
++package a;
++
++public class PersonB {
++    private String name;
++    private int age;
++
++    public PersonB(String name, int age){
++        this.name = name;
++        this.age = age;
++    }
++
++    public String getName() {
++        return name;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public int getAge() {
++        return age;
++    }
++
++    public void setAge(int age) {
++        this.age = age;
++    }
++}
+-- 
+2.24.3 (Apple Git-128)
+
