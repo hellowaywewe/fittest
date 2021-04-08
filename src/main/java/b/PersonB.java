@@ -1,4 +1,4 @@
-package a;
+package b;
 
 public class PersonB {
     private String name;
